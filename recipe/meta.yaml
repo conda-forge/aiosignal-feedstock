@@ -18,11 +18,12 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools
+    - setuptools >=51.0
     - pip
   run:
     - python >={{ python_min }}
     - frozenlist >=1.1.0
+    - typing_extensions >=4.2
 
 test:
   imports:
