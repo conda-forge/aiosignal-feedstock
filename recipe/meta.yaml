@@ -1,5 +1,5 @@
 {% set name = "aiosignal" %}
-{% set version = "1.3.2" %}
+{% set version = "1.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiosignal-{{ version }}.tar.gz
-  sha256: a8c255c66fafb1e499c9351d0bf32ff2d8a0321595ebac3b93713656d2436f54
+  sha256: f47eecd9468083c2029cc99945502cb7708b082c232f9aca65da147157b251c7
 
 build:
   number: 0
